@@ -1,0 +1,7 @@
+This is the home page for the books app.
+see the  <a href="{% url 'books:book_list' %}">book list</a>
+you can filter down <a href="{% url 'books:book_filter' %}">here</a>
+<form method="get" action="{% url 'books:book_search' %}">
+    <input type="text" name="q" placeholder="Search by title">
+    <button type="submit">Search</button>
+</form>

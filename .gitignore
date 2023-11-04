@@ -1,0 +1,46 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore the virtual environment
+venv/
+.env
+
+# Ignore static and media files
+/staticfiles/
+/media/
+
+# Ignore sensitive information (e.g., secret keys, credentials)
+*.secret_key
+*.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore migrations (only if you're not sharing them)
+/migrations/
+__pycache__/
+
+# Ignore IDE-specific files and directories (e.g., for VSCode or PyCharm)
+.vscode/
+.idea/
+
+# Ignore system files and directories (e.g., for macOS)
+.DS_Store
+
+# Ignore local development settings (you might want to customize this)
+local_settings.py
+
+# Ignore backup files created by text editors
+*~
+
+# Ignore Docker files (if you're using Docker)
+Dockerfile
+docker-compose.yml
+
+# Ignore any other temporary or generated files
+*.tmp
+*.swp
